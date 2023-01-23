@@ -9,8 +9,8 @@
         <img
           src="../assets/images/LOGO_PNG.png"
           alt="Bootstrap"
-          width="140"
-          height="80"
+          width="160"
+          height="100"
         />
       </a>
       <ul class="navbar-nav d-none d-lg-flex" id="navbarNavExpand">

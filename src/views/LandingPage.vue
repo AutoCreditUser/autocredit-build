@@ -1,7 +1,7 @@
 <template>
   <main>
     <div class="container-fluid p-0">
-      <div class="position-relative" title="Lamborguine azul no fundo">
+      <div class="d-flex justify-content-center">
         <img
           class="img-fluid"
           src="../assets/images/background_blue.png"
