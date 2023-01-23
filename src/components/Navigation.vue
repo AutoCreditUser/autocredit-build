@@ -1,11 +1,11 @@
 <template>
   <nav
-    class="navbar navbar-expand-lg sticky-top bg-body-tertiary navbar-light bg-light"
+    class="navbar navbar-expand-lg shadow-sm sticky-top bg-body-tertiary navbar-light bg-light"
   >
     <div
       class="container-fluid justify-content-between justify-content-lg-around"
     >
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand me-0" href="#">
         <img
           src="../assets/images/LOGO_PNG.png"
           alt="Bootstrap"
@@ -29,7 +29,7 @@
       </ul>
       <button
         type="button"
-        class="btn rounded-pill btn-blue-primary d-none d-lg-flex text-white"
+        class="btn rounded-pill btn-blue-primary fw-bold d-none d-lg-flex text-white"
       >
         Acessar
       </button>
@@ -87,6 +87,7 @@ export default {
 .btn-blue-primary {
   background-color: var(--color-primary-4);
   transition: 0.3s;
+  letter-spacing: 0.156rem;
 }
 
 .btn-blue-primary:hover {
