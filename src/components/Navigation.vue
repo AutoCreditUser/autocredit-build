@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="navbar navbar-expand-lg shadow-sm sticky-top bg-body-tertiary navbar-light bg-light"
+    class="navbar navbar-expand-lg shadow-sm bg-body-tertiary navbar-light bg-light"
   >
     <div
       class="container-fluid justify-content-between justify-content-lg-around"
@@ -13,7 +13,10 @@
           height="100"
         />
       </a>
-      <ul class="navbar-nav d-none d-lg-flex" id="navbarNavExpand">
+      <ul
+        class="navbar-nav nav-masthead gap-4 d-none d-lg-flex"
+        id="navbarNavExpand"
+      >
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
@@ -24,12 +27,12 @@
           <a class="nav-link" href="#">Clientes</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Quem somos?</a>
+          <a class="nav-link" href="#">Sobre</a>
         </li>
       </ul>
       <button
         type="button"
-        class="btn rounded-pill btn-blue-primary fw-bold d-none d-lg-flex text-white"
+        class="btn btn-outline-primary rounded-pill btn-blue-primary fw-light d-none d-lg-flex text-white"
       >
         Acessar
       </button>
@@ -58,7 +61,7 @@
           <a class="nav-link">Clientes</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link"> Quem somos ? </a>
+          <a class="nav-link"> Sobre </a>
         </li>
       </ul>
     </div>
@@ -85,13 +88,32 @@ export default {
 
 <style>
 .btn-blue-primary {
-  background-color: var(--color-primary-4);
+  background-color: var(--color-primary-3);
   transition: 0.3s;
-  letter-spacing: 0.156rem;
+  letter-spacing: 0.2px;
 }
 
 .btn-blue-primary:hover {
-  background-color: var(--color-primary-3);
+  background-color: var(--color-primary-4);
   transition: 0.3s;
+}
+
+.nav-masthead .nav-link {
+  color: rgba(4, 4, 4, 0.5);
+  border-bottom: 0.25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(4, 4, 4, 0.25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: rgb(74, 128, 254);
+  border-bottom-color: rgb(36, 131, 255);
 }
 </style>

@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from "vue-router";
+import { RouterView } from "vue-router";
 import Navigation from "./components/Navigation.vue";
 </script>
 
 <template>
-  <header>
+  <header class="sticky-top">
     <Navigation />
   </header>
 
