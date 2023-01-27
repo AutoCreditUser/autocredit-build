@@ -67,24 +67,7 @@
     </div>
   </nav>
 </template>
-<script lang="ts">
-import { reactive } from "vue";
-
-export default {
-  setup() {
-    const state = reactive({ count: 0 });
-
-    function increment() {
-      state.count++;
-    }
-
-    return {
-      state,
-      increment,
-    };
-  },
-};
-</script>
+<script lang="ts"></script>
 
 <style>
 .btn-blue-primary {
