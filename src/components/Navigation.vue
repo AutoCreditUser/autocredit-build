@@ -14,16 +14,16 @@
 				class="navbar-nav nav-masthead gap-4 d-none d-lg-flex"
 				id="navbarNavExpand">
 				<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="#">Home</a>
+					<a class="nav-link active" aria-current="page" href="home">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Serviços</a>
+					<a class="nav-link" href="servico">Serviços</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Clientes</a>
+					<a class="nav-link" href="clientes">Clientes</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Sobre</a>
+					<a class="nav-link" href="sobre">Sobre</a>
 				</li>
 			</ul>
 			<button
@@ -46,16 +46,16 @@
 		<div class="collapse navbar-collapse" id="navbarToggleExternalContent">
 			<ul class="navbar-nav px-3 me-auto mb-2 mb-lg-0 d-lg-none">
 				<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="#">Home</a>
+					<a class="nav-link active" aria-current="page" href="home">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Serviço</a>
+					<a class="nav-link" href="servico">Serviço</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link">Clientes</a>
+					<a class="nav-link" href="clientes">Clientes</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link"> Sobre </a>
+					<a class="nav-link" href="sobre"> Sobre </a>
 				</li>
 			</ul>
 		</div>
