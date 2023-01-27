@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div class="container-fluid p-0">
+    <!-- <div class="container-fluid p-0">
       <div class="d-flex justify-content-center">
         <img
           class="img-fluid"
@@ -8,7 +8,8 @@
           alt="Lamborguine azul no fundo"
         />
       </div>
-    </div>
+    </div> -->
+		<Carousel/>
     <section class="container-fluid">
       <h2 class="text-center py-5 fw-bold">
         Como são as consultas da Autocredit ?
@@ -72,7 +73,10 @@
   </main>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Carousel from '@/components/Carousel.vue';
+
+</script>
 
 <style scoped>
 .icons {
