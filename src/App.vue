@@ -1,9 +1,3 @@
-<script setup lang="ts">
-import { RouterView } from "vue-router";
-
-import Navigation from "./components/Navigation.vue";
-</script>
-
 <template>
   <header class="sticky-top">
     <Navigation />
@@ -11,6 +5,15 @@ import Navigation from "./components/Navigation.vue";
 
   <RouterView />
 </template>
+
+<script lang="ts">
+import { defineComponent } from "vue";
+import Navigation from "./components/Navigation.vue";
+
+export default defineComponent({
+  components: { Navigation },
+});
+</script>
 
 <style>
 @import url(../src/assets/fonts/typography.css);

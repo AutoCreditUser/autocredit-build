@@ -1,102 +1,98 @@
 <template>
-  <nav
-    class="navbar navbar-expand-lg shadow-sm bg-body-tertiary navbar-light bg-light"
-  >
-    <div
-      class="container-fluid justify-content-between justify-content-lg-around"
-    >
-      <a class="navbar-brand me-0" href="#">
-        <img
-          src="../assets/images/LOGO_PNG.png"
-          alt="Bootstrap"
-          width="160"
-          height="100"
-        />
-      </a>
-      <ul
-        class="navbar-nav nav-masthead gap-4 d-none d-lg-flex"
-        id="navbarNavExpand"
-      >
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Serviços</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Clientes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Sobre</a>
-        </li>
-      </ul>
-      <button
-        type="button"
-        class="btn btn-outline-primary rounded-pill btn-blue-primary fw-light d-none d-lg-flex text-white"
-      >
-        Acessar
-      </button>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarToggleExternalContent"
-        aria-controls="navbarToggleExternalContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
+	<nav
+		class="navbar navbar-expand-lg shadow-sm bg-body-tertiary navbar-light bg-light">
+		<div
+			class="container-fluid justify-content-between justify-content-lg-around">
+			<a class="navbar-brand me-0" href="#">
+				<img
+					src="../assets/images/LOGO_PNG.png"
+					alt="Bootstrap"
+					width="160"
+					height="100" />
+			</a>
+			<ul
+				class="navbar-nav nav-masthead gap-4 d-none d-lg-flex"
+				id="navbarNavExpand">
+				<li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Serviços</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Clientes</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Sobre</a>
+				</li>
+			</ul>
+			<button
+				type="button"
+				class="btn btn-outline-primary rounded-pill btn-blue-primary fw-light d-none d-lg-flex text-white">
+				Acessar
+			</button>
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-bs-toggle="collapse"
+				data-bs-target="#navbarToggleExternalContent"
+				aria-controls="navbarToggleExternalContent"
+				aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		</div>
 
-    <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
-      <ul class="navbar-nav px-3 me-auto mb-2 mb-lg-0 d-lg-none">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Serviço</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link">Clientes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link"> Sobre </a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+		<div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+			<ul class="navbar-nav px-3 me-auto mb-2 mb-lg-0 d-lg-none">
+				<li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Serviço</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link">Clientes</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link"> Sobre </a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 </template>
-<script lang="ts"></script>
+<script lang="ts">
+export default {};
+</script>
 
 <style>
 .btn-blue-primary {
-  background-color: var(--color-primary-3);
-  transition: 0.3s;
-  letter-spacing: 0.2px;
+	background-color: var(--color-primary-3);
+	transition: 0.3s;
+	letter-spacing: 0.2px;
 }
 
 .btn-blue-primary:hover {
-  background-color: var(--color-primary-4);
-  transition: 0.3s;
+	background-color: var(--color-primary-4);
+	transition: 0.3s;
 }
 
 .nav-masthead .nav-link {
-  color: rgba(4, 4, 4, 0.5);
-  border-bottom: 0.25rem solid transparent;
+	color: rgba(4, 4, 4, 0.5);
+	border-bottom: 0.25rem solid transparent;
 }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(4, 4, 4, 0.25);
+	border-bottom-color: rgba(4, 4, 4, 0.25);
 }
 
-.nav-masthead .nav-link + .nav-link {
-  margin-left: 1rem;
+.nav-masthead .nav-link+.nav-link {
+	margin-left: 1rem;
 }
 
 .nav-masthead .active {
-  color: rgb(74, 128, 254);
-  border-bottom-color: rgb(36, 131, 255);
+	color: rgb(74, 128, 254);
+	border-bottom-color: rgb(36, 131, 255);
 }
 </style>
