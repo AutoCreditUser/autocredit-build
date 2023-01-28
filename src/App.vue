@@ -1,8 +1,4 @@
 <template>
-	<metainfo>
-		<template v-slot:title="{ content }">{{ content? `${content} | Autocredit` : `AUTOCREDIT` }}
-		</template>
-	</metainfo>
 	<header class="sticky-top">
 		<Navigation />
 	</header>
@@ -11,21 +7,16 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { defineComponent, watchEffect } from "vue";
+import { useActiveMeta } from "vue-meta";
 import Navigation from "./components/Navigation.vue";
+
+const activeMeta = useActiveMeta();
 
 export default defineComponent({
 	components: { Navigation },
-	metaInfo: {
-		meta: [
-			{ charset: "utf-8", content: "text/html", httpEquiv: "Content-Type" },
-			{ name: "viewport", content: "width=device-width, initial-scale=1" },
-			{
-				hid: "description",
-				name: "description",
-				content: "Consultas e análise de credito veicular e empresarial",
-			},
-		],
+	setup() {
+		watchEffect(() => activeMeta);
 	},
 });
 </script>

@@ -63,38 +63,7 @@
 	</nav>
 </template>
 <script lang="ts">
-export default {
-	metaInfo: {
-		meta: [
-			{ charset: "utf-8" },
-			{
-				property: "og:title",
-				content: "Home",
-				vmid: "og:title",
-			},
-			{
-				property: "og:title",
-				content: "Serviços",
-				vmid: "og:title",
-			},
-			{
-				property: "og:title",
-				content: "Clientes",
-				vmid: "og:title",
-			},
-			{
-				property: "og:title",
-				content: "Sobre",
-				vmid: "og:title",
-			},
-			{
-				property: "og:title",
-				content: "Sobre",
-				vmid: "og:title",
-			},
-		],
-	},
-};
+export default {};
 </script>
 
 <style>

@@ -245,44 +245,10 @@
 	</main>
 </template>
 
-<script lang="ts">
-export default {
-	metaInfo: {
-		meta: [
-			{
-				hid: "description",
-				name: "description",
-				content: "Consultas e análise de credito veicular e empresarial",
-			},
-			{ charset: "utf-8" },
-			{
-				property: "og:title",
-				content: "Home",
-				vmid: "og:title",
-			},
-			{
-				property: "og:title",
-				content: "Serviços",
-				vmid: "og:title",
-			},
-			{
-				property: "og:title",
-				content: "Clientes",
-				vmid: "og:title",
-			},
-			{
-				property: "og:title",
-				content: "Sobre",
-				vmid: "og:title",
-			},
-			{
-				property: "og:title",
-				content: "Sobre",
-				vmid: "og:title",
-			},
-		],
-	},
-};
+<script setup lang="ts">
+import { useMetaRoute } from "@/composables";
+
+useMetaRoute();
 </script>
 
 <style scoped>
