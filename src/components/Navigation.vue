@@ -26,11 +26,12 @@
 					<a class="nav-link" href="#sobre">Sobre</a>
 				</li>
 			</ul>
-			<button
-				type="button"
+			<a
+				href="http://portalksiconsultas.com/"
+				target="_blank"
 				class="btn btn-outline-primary rounded-pill btn-blue-primary fw-light d-none d-lg-flex text-white">
 				Acessar
-			</button>
+			</a>
 			<button
 				class="navbar-toggler"
 				type="button"

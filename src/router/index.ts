@@ -8,6 +8,44 @@ const router = createRouter({
       path: "/",
       name: "home",
       component: LandingPage,
+      meta: {
+        title: "Home - Autocredit",
+        metaTags: [
+          {
+            name: "description",
+            content: "Consultas e análise de credito veicular e empresarial.",
+          },
+          {
+            property: "og:description",
+            content: "Consultas e análise de credito veicular e empresarial.",
+          },
+          {
+            property: "og:title",
+            content: "Home",
+            vmid: "og:title",
+          },
+          {
+            property: "og:title",
+            content: "Serviços",
+            vmid: "og:title",
+          },
+          {
+            property: "og:title",
+            content: "Clientes",
+            vmid: "og:title",
+          },
+          {
+            property: "og:title",
+            content: "Sobre",
+            vmid: "og:title",
+          },
+          {
+            property: "og:title",
+            content: "Sobre",
+            vmid: "og:title",
+          },
+        ],
+      },
     },
   ],
 });
