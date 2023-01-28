@@ -11,23 +11,16 @@
 </template>
 
 <script lang="ts">
-import { useMeta } from "vue-meta";
 import { defineComponent } from "vue";
 import Navigation from "./components/Navigation.vue";
 
 export default defineComponent({
 	components: { Navigation },
-	setup() {
-		useMeta({
-			title: "Autocredit - Consulta e Análise veicular",
-			meta: [
-				{
-					name: "description",
-					content:
-						"Venha para a Autocredit, consulta veicular e análise de crédito",
-				},
-			],
-		});
+	metaInfo: {
+		meta: [
+			{ charset: "utf-8", content: "text/html", httpEquiv: "Content-Type" },
+			{ name: "viewport", content: "width=device-width, initial-scale=1" },
+		],
 	},
 });
 </script>

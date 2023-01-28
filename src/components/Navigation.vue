@@ -14,16 +14,16 @@
 				class="navbar-nav nav-masthead gap-4 d-none d-lg-flex"
 				id="navbarNavExpand">
 				<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="home">Home</a>
+					<a class="nav-link active" aria-current="page" href="#home">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="servico">Serviços</a>
+					<a class="nav-link" href="#servico">Serviços</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="clientes">Clientes</a>
+					<a class="nav-link" href="#clientes">Clientes</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="sobre">Sobre</a>
+					<a class="nav-link" href="#sobre">Sobre</a>
 				</li>
 			</ul>
 			<button
@@ -46,23 +46,59 @@
 		<div class="collapse navbar-collapse" id="navbarToggleExternalContent">
 			<ul class="navbar-nav px-3 me-auto mb-2 mb-lg-0 d-lg-none">
 				<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="home">Home</a>
+					<a class="nav-link active" aria-current="page" href="#home">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="servico">Serviço</a>
+					<a class="nav-link" href="#servico">Serviço</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="clientes">Clientes</a>
+					<a class="nav-link" href="#clientes">Clientes</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="sobre"> Sobre </a>
+					<a class="nav-link" href="#sobre"> Sobre </a>
 				</li>
 			</ul>
 		</div>
 	</nav>
 </template>
 <script lang="ts">
-export default {};
+export default {
+	metaInfo: {
+		meta: [
+			{
+				hid: "description",
+				name: "description",
+				content: "Consultas e análise de credito veicular e empresarial",
+			},
+			{ charset: "utf-8" },
+			{
+				property: "og:title",
+				content: "Home",
+				vmid: "og:title",
+			},
+			{
+				property: "og:title",
+				content: "Serviços",
+				vmid: "og:title",
+			},
+			{
+				property: "og:title",
+				content: "Clientes",
+				vmid: "og:title",
+			},
+			{
+				property: "og:title",
+				content: "Sobre",
+				vmid: "og:title",
+			},
+			{
+				property: "og:title",
+				content: "Sobre",
+				vmid: "og:title",
+			},
+		],
+	},
+};
 </script>
 
 <style>
