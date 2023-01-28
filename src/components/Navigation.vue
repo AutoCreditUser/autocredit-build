@@ -65,11 +65,6 @@
 export default {
 	metaInfo: {
 		meta: [
-			{
-				hid: "description",
-				name: "description",
-				content: "Consultas e análise de credito veicular e empresarial",
-			},
 			{ charset: "utf-8" },
 			{
 				property: "og:title",

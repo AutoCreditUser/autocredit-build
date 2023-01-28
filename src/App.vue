@@ -20,6 +20,11 @@ export default defineComponent({
 		meta: [
 			{ charset: "utf-8", content: "text/html", httpEquiv: "Content-Type" },
 			{ name: "viewport", content: "width=device-width, initial-scale=1" },
+			{
+				hid: "description",
+				name: "description",
+				content: "Consultas e análise de credito veicular e empresarial",
+			},
 		],
 	},
 });
